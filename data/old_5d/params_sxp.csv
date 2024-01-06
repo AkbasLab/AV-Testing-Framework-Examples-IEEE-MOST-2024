@@ -1,0 +1,6 @@
+feat,min,max,inc
+dut_speed,5,50,1
+dut_decel,3,10,.1
+dut_dist,0,100,1
+foe_speed,10,50,1
+foe_dist,0,100,1

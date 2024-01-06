@@ -1,0 +1,319 @@
+digraph {
+	0 [label="foe_speed, value>11.5" color=black shape=ellipse]
+	1 [label="dut_speed, value>8.5" color=black shape=ellipse]
+	0 -> 1 [label=No]
+	2 [label="dut_speed, value>8.5" color=black shape=ellipse]
+	0 -> 2 [label=Yes]
+	3 [label="foe_speed, value>10.5" color=black shape=ellipse]
+	1 -> 3 [label=No]
+	4 [label="foe_speed, value>10.5" color=black shape=ellipse]
+	1 -> 4 [label=Yes]
+	5 [label="foe_speed, value>10.5" color=black shape=ellipse]
+	2 -> 5 [label=No]
+	6 [label="foe_speed, value>10.5" color=black shape=ellipse]
+	2 -> 6 [label=Yes]
+	7 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	3 -> 7 [label=No]
+	8 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	3 -> 8 [label=Yes]
+	9 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	4 -> 9 [label=No]
+	10 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	4 -> 10 [label=Yes]
+	11 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	5 -> 11 [label=No]
+	12 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	5 -> 12 [label=Yes]
+	13 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	6 -> 13 [label=No]
+	14 [label="dut_speed, value>7.5" color=black shape=ellipse]
+	6 -> 14 [label=Yes]
+	15 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	7 -> 15 [label=No]
+	16 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	7 -> 16 [label=Yes]
+	17 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	8 -> 17 [label=No]
+	18 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	8 -> 18 [label=Yes]
+	19 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	9 -> 19 [label=No]
+	20 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	9 -> 20 [label=Yes]
+	21 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	10 -> 21 [label=No]
+	22 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	10 -> 22 [label=Yes]
+	23 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	11 -> 23 [label=No]
+	24 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	11 -> 24 [label=Yes]
+	25 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	12 -> 25 [label=No]
+	26 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	12 -> 26 [label=Yes]
+	27 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	13 -> 27 [label=No]
+	28 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	13 -> 28 [label=Yes]
+	29 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	14 -> 29 [label=No]
+	30 [label="foe_speed, value>20.5" color=black shape=ellipse]
+	14 -> 30 [label=Yes]
+	31 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	15 -> 31 [label=No]
+	32 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	15 -> 32 [label=Yes]
+	33 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	16 -> 33 [label=No]
+	34 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	16 -> 34 [label=Yes]
+	35 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	17 -> 35 [label=No]
+	36 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	17 -> 36 [label=Yes]
+	37 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	18 -> 37 [label=No]
+	38 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	18 -> 38 [label=Yes]
+	39 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	19 -> 39 [label=No]
+	40 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	19 -> 40 [label=Yes]
+	41 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	20 -> 41 [label=No]
+	42 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	20 -> 42 [label=Yes]
+	43 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	21 -> 43 [label=No]
+	44 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	21 -> 44 [label=Yes]
+	45 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	22 -> 45 [label=No]
+	46 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	22 -> 46 [label=Yes]
+	47 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	23 -> 47 [label=No]
+	48 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	23 -> 48 [label=Yes]
+	49 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	24 -> 49 [label=No]
+	50 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	24 -> 50 [label=Yes]
+	51 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	25 -> 51 [label=No]
+	52 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	25 -> 52 [label=Yes]
+	53 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	26 -> 53 [label=No]
+	54 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	26 -> 54 [label=Yes]
+	55 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	27 -> 55 [label=No]
+	56 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	27 -> 56 [label=Yes]
+	57 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	28 -> 57 [label=No]
+	58 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	28 -> 58 [label=Yes]
+	59 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	29 -> 59 [label=No]
+	60 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	29 -> 60 [label=Yes]
+	61 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	30 -> 61 [label=No]
+	62 [label="{envelope_id} counter_type=Borders prior_numerator=1, value>2" color=black shape=ellipse]
+	30 -> 62 [label=Yes]
+	63 [label="val = 0.000
+" color=red shape=rect]
+	31 -> 63 [label=No]
+	64 [label="val = 0.319
+" color=red shape=rect]
+	31 -> 64 [label=Yes]
+	65 [label="val = 0.000
+" color=red shape=rect]
+	32 -> 65 [label=No]
+	66 [label="val = 0.000
+" color=red shape=rect]
+	32 -> 66 [label=Yes]
+	67 [label="val = 0.000
+" color=red shape=rect]
+	33 -> 67 [label=No]
+	68 [label="val = -0.098
+" color=red shape=rect]
+	33 -> 68 [label=Yes]
+	69 [label="val = 0.000
+" color=red shape=rect]
+	34 -> 69 [label=No]
+	70 [label="val = 0.000
+" color=red shape=rect]
+	34 -> 70 [label=Yes]
+	71 [label="val = 0.000
+" color=red shape=rect]
+	35 -> 71 [label=No]
+	72 [label="val = -0.444
+" color=red shape=rect]
+	35 -> 72 [label=Yes]
+	73 [label="val = 0.000
+" color=red shape=rect]
+	36 -> 73 [label=No]
+	74 [label="val = 0.000
+" color=red shape=rect]
+	36 -> 74 [label=Yes]
+	75 [label="val = 0.000
+" color=red shape=rect]
+	37 -> 75 [label=No]
+	76 [label="val = 0.323
+" color=red shape=rect]
+	37 -> 76 [label=Yes]
+	77 [label="val = 0.000
+" color=red shape=rect]
+	38 -> 77 [label=No]
+	78 [label="val = 0.000
+" color=red shape=rect]
+	38 -> 78 [label=Yes]
+	79 [label="val = 0.000
+" color=red shape=rect]
+	39 -> 79 [label=No]
+	80 [label="val = 0.000
+" color=red shape=rect]
+	39 -> 80 [label=Yes]
+	81 [label="val = 0.000
+" color=red shape=rect]
+	40 -> 81 [label=No]
+	82 [label="val = 0.000
+" color=red shape=rect]
+	40 -> 82 [label=Yes]
+	83 [label="val = 0.000
+" color=red shape=rect]
+	41 -> 83 [label=No]
+	84 [label="val = -0.004
+" color=red shape=rect]
+	41 -> 84 [label=Yes]
+	85 [label="val = 0.000
+" color=red shape=rect]
+	42 -> 85 [label=No]
+	86 [label="val = 0.000
+" color=red shape=rect]
+	42 -> 86 [label=Yes]
+	87 [label="val = 0.000
+" color=red shape=rect]
+	43 -> 87 [label=No]
+	88 [label="val = 0.000
+" color=red shape=rect]
+	43 -> 88 [label=Yes]
+	89 [label="val = 0.000
+" color=red shape=rect]
+	44 -> 89 [label=No]
+	90 [label="val = 0.000
+" color=red shape=rect]
+	44 -> 90 [label=Yes]
+	91 [label="val = 0.000
+" color=red shape=rect]
+	45 -> 91 [label=No]
+	92 [label="val = -0.065
+" color=red shape=rect]
+	45 -> 92 [label=Yes]
+	93 [label="val = 0.000
+" color=red shape=rect]
+	46 -> 93 [label=No]
+	94 [label="val = 0.000
+" color=red shape=rect]
+	46 -> 94 [label=Yes]
+	95 [label="val = 0.000
+" color=red shape=rect]
+	47 -> 95 [label=No]
+	96 [label="val = 0.000
+" color=red shape=rect]
+	47 -> 96 [label=Yes]
+	97 [label="val = 0.000
+" color=red shape=rect]
+	48 -> 97 [label=No]
+	98 [label="val = 0.000
+" color=red shape=rect]
+	48 -> 98 [label=Yes]
+	99 [label="val = 0.000
+" color=red shape=rect]
+	49 -> 99 [label=No]
+	100 [label="val = 0.000
+" color=red shape=rect]
+	49 -> 100 [label=Yes]
+	101 [label="val = 0.000
+" color=red shape=rect]
+	50 -> 101 [label=No]
+	102 [label="val = 0.000
+" color=red shape=rect]
+	50 -> 102 [label=Yes]
+	103 [label="val = 0.000
+" color=red shape=rect]
+	51 -> 103 [label=No]
+	104 [label="val = -0.236
+" color=red shape=rect]
+	51 -> 104 [label=Yes]
+	105 [label="val = 0.000
+" color=red shape=rect]
+	52 -> 105 [label=No]
+	106 [label="val = 0.009
+" color=red shape=rect]
+	52 -> 106 [label=Yes]
+	107 [label="val = 0.000
+" color=red shape=rect]
+	53 -> 107 [label=No]
+	108 [label="val = -0.116
+" color=red shape=rect]
+	53 -> 108 [label=Yes]
+	109 [label="val = 0.000
+" color=red shape=rect]
+	54 -> 109 [label=No]
+	110 [label="val = 0.041
+" color=red shape=rect]
+	54 -> 110 [label=Yes]
+	111 [label="val = 0.000
+" color=red shape=rect]
+	55 -> 111 [label=No]
+	112 [label="val = 0.000
+" color=red shape=rect]
+	55 -> 112 [label=Yes]
+	113 [label="val = 0.000
+" color=red shape=rect]
+	56 -> 113 [label=No]
+	114 [label="val = 0.000
+" color=red shape=rect]
+	56 -> 114 [label=Yes]
+	115 [label="val = 0.000
+" color=red shape=rect]
+	57 -> 115 [label=No]
+	116 [label="val = 0.000
+" color=red shape=rect]
+	57 -> 116 [label=Yes]
+	117 [label="val = 0.000
+" color=red shape=rect]
+	58 -> 117 [label=No]
+	118 [label="val = 0.000
+" color=red shape=rect]
+	58 -> 118 [label=Yes]
+	119 [label="val = 0.000
+" color=red shape=rect]
+	59 -> 119 [label=No]
+	120 [label="val = 0.000
+" color=red shape=rect]
+	59 -> 120 [label=Yes]
+	121 [label="val = 0.000
+" color=red shape=rect]
+	60 -> 121 [label=No]
+	122 [label="val = 0.000
+" color=red shape=rect]
+	60 -> 122 [label=Yes]
+	123 [label="val = 0.042
+" color=red shape=rect]
+	61 -> 123 [label=No]
+	124 [label="val = -0.006
+" color=red shape=rect]
+	61 -> 124 [label=Yes]
+	125 [label="val = 0.012
+" color=red shape=rect]
+	62 -> 125 [label=No]
+	126 [label="val = 0.001
+" color=red shape=rect]
+	62 -> 126 [label=Yes]
+}
